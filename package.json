@@ -1,5 +1,5 @@
 {
-  "homepage": "https://madhanbabuuradi.github.io/Retro-Website/",
+  
   "name": "retro-designed-website",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,7 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
-    "deploy": "gh-pages -d out -t true",
-        "predploy": "npm run build",
+   
   },
   "dependencies": {
     "gsap": "^3.12.2",
